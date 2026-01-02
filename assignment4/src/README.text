@@ -1,0 +1,18 @@
+Hello! This is my state 4-color problem. 
+
+This program can be run by running Main.java in Visual Studio code. 
+
+I am trying with the makefile but still cannot get it to work. To make grading easier for you, 
+I will keep fiddling with it and commit an updated version if I can get it to work before you 
+begin grading. Sorry for the hassle!
+
+//edit:
+To run, please run the script run.sh in the directory assignment4 with the command:
+
+./run.sh
+
+I cannot get the 51 state version to run in a reasonable amount of time. So this version demonstrates the
+genetic algorithm on the 10 state version. 
+
+Thank you!! 
+Miranda

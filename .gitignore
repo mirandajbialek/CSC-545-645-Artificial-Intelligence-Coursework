@@ -1,0 +1,20 @@
+# Grading files and mibi folder - do not push to GitHub
+mibi/
+*.ipynb_checkpoints/
+
+# Assignment PDF files (optional - remove if you want to include them)
+*.pdf
+
+# Other files to ignore
+.DS_Store
+*.class
+*.jar
+*.log
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+target/
+out/
