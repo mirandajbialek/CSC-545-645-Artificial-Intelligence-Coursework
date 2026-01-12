@@ -50,7 +50,7 @@ AStarSearch/UniformCostSearch
 
 **Compile:**
 ```bash
-cd assignment3/src
+cd assignment3-AStarSearch/src
 javac *.java
 ```
 
@@ -59,13 +59,31 @@ javac *.java
 java Main
 ```
 
+**Generate New Environment:**
+```bash
+make
+./make_env
+```
+
+Then refresh `index.html` in your browser to visualize the new environment and search paths.
+
+## Visualization
+
+The program generates HTML output showing:
+- 2D environment with polygon obstacles
+- Start and goal positions
+- Computed search paths overlaid on the environment
+- **File**: `index.html` - Open in browser to view results
+
+A pre-generated environment is included; refresh the page after regenerating a new one to see updated visualizations.
+
 ## Expected Output
 
 The program will:
 1. Load environment with obstacles and start/goal positions
 2. Execute A* search or Uniform Cost Search
 3. Display solution path coordinates
-4. Show path visualization in HTML output
+4. Generate HTML visualization with search paths
 5. Print actual path cost
 
 Example:
@@ -85,6 +103,7 @@ Solution found! Solution path is:
 - `Polygon.java` - Obstacle representation
 - `Vector2D.java` - 2D point representation
 - `Node.java` - Search tree node structure
+- `index.html` - Visualization of results
 
 ## Algorithm Comparison
 
@@ -96,11 +115,21 @@ Solution found! Solution path is:
 | **Nodes Expanded** | Fewer | More |
 | **Best For** | Known geometry | General cases |
 
+## Compiler Information
+
+- OpenJDK version 17.0.8.1
+- OpenJDK Runtime Environment Temurin-17.0.8.1+1
+
+## Acknowledgments
+
+Framework and inspiration provided by Michael Davis.
+
 ## Learning Outcomes
 
-✓ Implementation of informed search algorithms
-✓ Heuristic function design and evaluation
-✓ Geometric path planning
-✓ Obstacle collision detection
-✓ Algorithm efficiency comparison
-✓ Priority queue-based search
+✓ Implementation of informed search algorithms  
+✓ Heuristic function design and evaluation  
+✓ Geometric path planning  
+✓ Obstacle collision detection  
+✓ Algorithm efficiency comparison  
+✓ Priority queue-based search  
+✓ Visualization of search results

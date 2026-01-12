@@ -43,21 +43,21 @@ Mutant:   [NC=Green, SC=Red, VA=Blue, ...]
 
 ## How to Run
 
-**Compile:**
+**Quick Start with Script:**
 ```bash
-cd assignment4/src
-javac *.java
+cd assignment4-GeneticAlgorithm
+./run.sh
 ```
 
-**Run:**
+**Manual Compilation & Run:**
 ```bash
+cd assignment4-GeneticAlgorithm/src
+javac *.java
 java Main
 ```
 
-Or use the provided script:
-```bash
-./run.sh
-```
+**In Visual Studio Code:**
+Run `Main.java` directly from the IDE.
 
 ## Expected Output
 
@@ -84,6 +84,7 @@ Florida -> Color 0
 - `Individual.java` - Single solution candidate with fitness evaluation
 - `StateMap.java` - Map representation and constraint checking
 - `Border.java` - State adjacency relationships
+- `neighborstates.txt` - State adjacency data
 
 ## Configuration Parameters
 

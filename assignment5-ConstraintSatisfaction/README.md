@@ -37,6 +37,7 @@ Implements four CSP solving algorithms with varying sophistication:
 - Starts with complete (but possibly conflicting) assignment
 - Iteratively reassigns variables to reduce conflicts
 - Finds solutions quickly in many problems
+- Note: Does not always find a solution; performance varies with problem size
 
 ## Key Algorithms & Concepts
 
@@ -59,21 +60,35 @@ Implements four CSP solving algorithms with varying sophistication:
 
 ## How to Run
 
-**Compile:**
+**Quick Start with Script:**
 ```bash
-cd assignment5/src
-javac *.java
+cd assignment5-ConstraintSatisfaction
+./run.sh
 ```
 
-**Run:**
+**Manual Compilation & Run:**
 ```bash
+cd assignment5-ConstraintSatisfaction/src
+javac *.java
 java Main
 ```
 
-Or use the provided script:
-```bash
-./run.sh
-```
+## Problem Configurations
+
+**By Default:**
+The program solves for the entire 50-state US map, which is a more challenging CSP.
+
+**Alternative (10-State Map):**
+A 10-state Southeastern US map is available and can be uncommented in the code. This smaller problem is useful for:
+- Faster testing
+- Higher likelihood of Min-Conflicts finding solutions within max iterations
+- Quicker grading/demonstration purposes
+
+## Performance Notes
+
+- **Iteration Count**: The `computeAverageTime()` function accepts a parameter for number of iterations. Currently set to 5 for nearly instantaneous execution, making grading convenient.
+- **Full Benchmark**: Set iterations to 100 for comprehensive timing analysis (runs within ~1 minute)
+- **Min-Conflicts Variability**: Success rate depends on problem size; the 10-state version is much more likely to find solutions within max iterations
 
 ## Expected Output
 

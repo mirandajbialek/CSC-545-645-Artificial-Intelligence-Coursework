@@ -85,3 +85,7 @@ The agent will:
 ✓ Agent-environment interaction patterns
 ✓ Percept interpretation and action execution
 
+## Acknowledgments
+
+This assignment uses snippets of code and concepts from the **Artificial Intelligence: A Modern Approach (AIMA)** textbook and accompanying code repository. Some implementations and architectural patterns are based on AIMA examples.
+

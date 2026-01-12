@@ -33,28 +33,28 @@ This portfolio contains 10 comprehensive assignments from an advanced AI course 
 
 | # | Topic | Description |
 |---|-------|-------------|
-| **1** | [Simple Reflex Agent](./assignment1) | Vacuum world agent with rule-based decision making |
-| **2** | [Graph Search](./assignment2) | Iterative deepening search for the Goats & Wolves puzzle |
-| **3** | [Informed Search](./assignment3) | A* and Uniform Cost Search implementations |
-| **4** | [Genetic Algorithm](./assignment4) | Population-based optimization for traveling salesman problem |
-| **5** | [Constraint Satisfaction](./assignment5) | CSP solving with backtracking and constraint propagation |
-| **6** | [Adversarial Search](./assignment6) | Minimax algorithm for Tic-Tac-Toe |
-| **7** | [Reinforcement Learning](./assignment7) | Q-learning and policy optimization |
-| **8** | [Logic & Planning](./assignment8) | Knowledge representation and automated planning |
-| **9** | [Neural Networks](./assignment9) | Deep learning and neural network training |
-| **10** | [Advanced AI](./assignment10) | Comprehensive AI techniques application |
+| **1** | [Simple Reflex Agent](./assignment1-SimpleReflexAgent) | Vacuum world agent with rule-based decision making |
+| **2** | [Search Strategies](./assignment2-SearchStrategies) | Iterative deepening search for the Goats & Wolves puzzle |
+| **3** | [A* Search](./assignment3-AStarSearch) | A* and Uniform Cost Search implementations |
+| **4** | [Genetic Algorithm](./assignment4-GeneticAlgorithm) | Population-based optimization for traveling salesman problem |
+| **5** | [Constraint Satisfaction](./assignment5-ConstraintSatisfaction) | CSP solving with backtracking and constraint propagation |
+| **6** | [Minimax](./assignment6-Minimax) | Minimax algorithm for Tic-Tac-Toe |
+| **7** | [Reinforcement Learning](./assignment7-Quantifying-Uncertainty) | Q-learning and policy optimization |
+| **8** | [Planning](./assignment8-Planning) | Knowledge representation and automated planning |
+| **9** | [Neural Networks](./assignment9-Probabilistic-Reasoning) | Deep learning and neural network training |
+| **10** | [Advanced Integration](./assignment10-Probabilistic-Reasoning-Over-Time) | Comprehensive AI techniques application |
 
 ---
 
-## ⭐ Standout Assignments
+## Standout Assignments
 
-### 🏆 Assignment 5: Constraint Satisfaction Problems
+### Assignment 5: Constraint Satisfaction Problems
 Implements multiple CSP solving strategies including AC-3 constraint propagation and forward checking. Demonstrates strong understanding of inference algorithms and optimization techniques for combinatorial problems.
 
-### 🏆 Assignment 3: A* Search with Heuristics
+### Assignment 3: A* Search with Heuristics
 Combines multiple informed search algorithms with custom heuristics for pathfinding. Shows mastery of optimization and algorithmic efficiency.
 
-### 🏆 Assignment 4: Genetic Algorithm
+### Assignment 4: Genetic Algorithm
 Population-based solver with crossover and mutation operators. Illustrates understanding of metaheuristic optimization and evolutionary computation.
 
 ---
@@ -96,4 +96,4 @@ Through these assignments, I developed:
 
 ---
 
-**Contact & Portfolio**: [Your Name] | University of Miami, Computer Science
+**Contact & Portfolio**: Miranda Bialek | University of Miami, Computer Science

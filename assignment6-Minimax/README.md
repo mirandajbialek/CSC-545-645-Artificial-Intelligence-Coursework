@@ -52,9 +52,12 @@ MinValue works similarly (minimizing instead)
 
 ## How to Run
 
+**In Visual Studio Code:**
+Simply run `Main.java` directly from the IDE.
+
 **Compile:**
 ```bash
-cd assignment6/src6
+cd assignment6-Minimax/src6
 javac *.java
 ```
 
@@ -63,7 +66,7 @@ javac *.java
 java Main
 ```
 
-Or use the script:
+**Or use the script:**
 ```bash
 ./run.sh
 ```
