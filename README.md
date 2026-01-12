@@ -36,13 +36,13 @@ This portfolio contains 10 comprehensive assignments from an advanced AI course 
 | **1** | [Simple Reflex Agent](./assignment1-SimpleReflexAgent) | Vacuum world agent with rule-based decision making |
 | **2** | [Search Strategies](./assignment2-SearchStrategies) | Iterative deepening search for the Goats & Wolves puzzle |
 | **3** | [A* Search](./assignment3-AStarSearch) | A* and Uniform Cost Search implementations |
-| **4** | [Genetic Algorithm](./assignment4-GeneticAlgorithm) | Population-based optimization for traveling salesman problem |
+| **4** | [Genetic Algorithm](./assignment4-GeneticAlgorithm) | Population-based optimization for map coloring |
 | **5** | [Constraint Satisfaction](./assignment5-ConstraintSatisfaction) | CSP solving with backtracking and constraint propagation |
 | **6** | [Minimax](./assignment6-Minimax) | Minimax algorithm for Tic-Tac-Toe |
-| **7** | [Reinforcement Learning](./assignment7-Quantifying-Uncertainty) | Q-learning and policy optimization |
-| **8** | [Planning](./assignment8-Planning) | Knowledge representation and automated planning |
-| **9** | [Neural Networks](./assignment9-Probabilistic-Reasoning) | Deep learning and neural network training |
-| **10** | [Advanced Integration](./assignment10-Probabilistic-Reasoning-Over-Time) | Comprehensive AI techniques application |
+| **7** | [Quantifying Uncertainty](./assignment7-Quantifying-Uncertainty) | Monte Carlo simulation and probabilistic reasoning |
+| **8** | [Probabilistic Reasoning](./assignment8-Planning) | Bayesian inference, Naive Bayes, and Bayesian networks |
+| **9** | [Bayesian Networks](./assignment9-Probabilistic-Reasoning) | Variable elimination and probabilistic inference |
+| **10** | [Dynamic Bayesian Networks](./assignment10-Probabilistic-Reasoning-Over-Time) | Temporal inference and Hidden Markov Models |
 
 ---
 
